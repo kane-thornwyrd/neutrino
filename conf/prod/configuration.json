@@ -1,0 +1,15 @@
+{
+  "logging": {
+    "logLevel": "WARN",
+    "name": "neutrino",
+    "streams": [
+      {
+        "type": "rotating-file",
+        "path": "logs/error.log",
+        "period": "1w",
+        "count": 7,
+        "level": "error"
+      }
+    ]
+  }
+}
